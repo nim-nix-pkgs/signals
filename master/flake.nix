@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-signals-master.flake = false;
+  inputs.src-signals-master.ref   = "refs/heads/master";
   inputs.src-signals-master.owner = "fowlmouth";
-  inputs.src-signals-master.ref   = "master";
   inputs.src-signals-master.repo  = "signals.nim";
   inputs.src-signals-master.type  = "github";
   
